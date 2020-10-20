@@ -6,3 +6,7 @@ Please note: this repo is in early stage development and will change a lot. At t
 
 It can serve as a starting point for finding ready to go KubeRig DSL dependencies. 
 It can also show you how to generate a KubeRig DSL when the CRDs you want to consume have not been added yet.
+
+## Background
+
+Read about how we do this [here](https://www.rigel.dev/kuberig-dsl-for-crds/).

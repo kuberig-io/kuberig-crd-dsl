@@ -85,7 +85,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTaskList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTaskList"
             }
           },
           "401": {
@@ -122,7 +122,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           {
@@ -144,19 +144,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "401": {
@@ -304,7 +304,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "401": {
@@ -341,7 +341,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           {
@@ -363,13 +363,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "401": {
@@ -507,7 +507,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "401": {
@@ -570,7 +570,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "401": {
@@ -607,7 +607,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           {
@@ -629,13 +629,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "401": {
@@ -695,7 +695,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ClusterTask"
             }
           },
           "401": {
@@ -749,7 +749,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ConditionList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "401": {
@@ -909,7 +909,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.ConditionList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ConditionList"
             }
           },
           "401": {
@@ -946,7 +946,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           {
@@ -968,19 +968,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "401": {
@@ -1136,7 +1136,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "401": {
@@ -1173,7 +1173,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           {
@@ -1195,13 +1195,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "401": {
@@ -1339,7 +1339,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "401": {
@@ -1410,7 +1410,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "401": {
@@ -1447,7 +1447,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           {
@@ -1469,13 +1469,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "401": {
@@ -1535,7 +1535,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Condition"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Condition"
             }
           },
           "401": {
@@ -1655,7 +1655,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResourceList"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResourceList"
             }
           },
           "401": {
@@ -1692,7 +1692,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           {
@@ -1714,19 +1714,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "401": {
@@ -1882,7 +1882,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "401": {
@@ -1919,7 +1919,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           {
@@ -1941,13 +1941,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "401": {
@@ -2085,7 +2085,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "401": {
@@ -2156,7 +2156,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "401": {
@@ -2193,7 +2193,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           {
@@ -2215,13 +2215,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "401": {
@@ -2281,7 +2281,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResource"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "401": {
@@ -2401,7 +2401,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRunList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRunList"
             }
           },
           "401": {
@@ -2438,7 +2438,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           {
@@ -2460,19 +2460,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "401": {
@@ -2628,7 +2628,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "401": {
@@ -2665,7 +2665,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           {
@@ -2687,13 +2687,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "401": {
@@ -2831,7 +2831,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "401": {
@@ -2902,7 +2902,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "401": {
@@ -2939,7 +2939,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           {
@@ -2961,13 +2961,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "401": {
@@ -3027,7 +3027,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "401": {
@@ -3147,7 +3147,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineList"
             }
           },
           "401": {
@@ -3184,7 +3184,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           {
@@ -3206,19 +3206,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "401": {
@@ -3374,7 +3374,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "401": {
@@ -3411,7 +3411,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           {
@@ -3433,13 +3433,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "401": {
@@ -3577,7 +3577,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "401": {
@@ -3648,7 +3648,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "401": {
@@ -3685,7 +3685,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           {
@@ -3707,13 +3707,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "401": {
@@ -3773,7 +3773,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "401": {
@@ -3792,6 +3792,556 @@
           "uniqueItems": true,
           "type": "string",
           "description": "name of the Pipeline",
+          "name": "name",
+          "in": "path",
+          "required": true
+        },
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "object name and auth scope, such as for teams and projects",
+          "name": "namespace",
+          "in": "path",
+          "required": true
+        },
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "If 'true', then the output is pretty printed.",
+          "name": "pretty",
+          "in": "query"
+        }
+      ]
+    },
+    "/apis/tekton.dev/v1alpha1/namespaces/{namespace}/runs": {
+      "get": {
+        "description": "list objects of kind Run",
+        "consumes": [
+          "application/json",
+          "application/yaml"
+        ],
+        "produces": [
+          "application/json",
+          "application/yaml"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "tektonDev_v1alpha1"
+        ],
+        "operationId": "listTektonDevV1alpha1NamespacedRun",
+        "parameters": [
+          {
+            "uniqueItems": true,
+            "type": "boolean",
+            "description": "allowWatchBookmarks requests watch events with type \"BOOKMARK\". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored. If the feature gate WatchBookmarks is not enabled in apiserver, this field is ignored.",
+            "name": "allowWatchBookmarks",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \"next key\".\n\nThis field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.",
+            "name": "continue",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "A selector to restrict the list of returned objects by their fields. Defaults to everything.",
+            "name": "fieldSelector",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "A selector to restrict the list of returned objects by their labels. Defaults to everything.",
+            "name": "labelSelector",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "integer",
+            "description": "limit is a maximum number of responses to return for a list call. If more items exist, the server will set the `continue` field on the list metadata to a value that can be used with the same initial query to retrieve the next set of results. Setting a limit may return fewer than the requested amount of items (up to zero items) in the event all requested objects are filtered out and clients should only use the presence of the continue field to determine whether more results are available. Servers may choose not to support the limit argument and will return all of the available results. If limit is specified and the continue field is empty, clients may assume that no more results are available. This field is not supported if watch is true.\n\nThe server guarantees that the objects returned when using continue will be identical to issuing a single list call without a limit - that is, no objects created, modified, or deleted after the first request is issued will be included in any subsequent continued requests. This is sometimes referred to as a consistent snapshot, and ensures that a client that is using limit to receive smaller chunks of a very large result can ensure they see all possible objects. If objects are updated during a chunked list the version of the object that was present at the time the first list result was calculated is returned.",
+            "name": "limit",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.",
+            "name": "resourceVersion",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "integer",
+            "description": "Timeout for the list/watch call. This limits the duration of the call, regardless of any activity or inactivity.",
+            "name": "timeoutSeconds",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "boolean",
+            "description": "Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.",
+            "name": "watch",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.RunList"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "x-kubernetes-action": "list",
+        "x-kubernetes-group-version-kind": {
+          "group": "tekton.dev",
+          "kind": "Run",
+          "version": "v1alpha1"
+        }
+      },
+      "post": {
+        "description": "create a Run",
+        "consumes": [
+          "application/json",
+          "application/yaml"
+        ],
+        "produces": [
+          "application/json",
+          "application/yaml"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "tektonDev_v1alpha1"
+        ],
+        "operationId": "createTektonDevV1alpha1NamespacedRun",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed",
+            "name": "dryRun",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "fieldManager is a name associated with the actor or entity that is making these changes. The value must be less than or 128 characters long, and only contain printable characters, as defined by https://golang.org/pkg/unicode/#IsPrint.",
+            "name": "fieldManager",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          "201": {
+            "description": "Created",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          "202": {
+            "description": "Accepted",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "x-kubernetes-action": "post",
+        "x-kubernetes-group-version-kind": {
+          "group": "tekton.dev",
+          "kind": "Run",
+          "version": "v1alpha1"
+        }
+      },
+      "delete": {
+        "description": "delete collection of Run",
+        "consumes": [
+          "application/json",
+          "application/yaml"
+        ],
+        "produces": [
+          "application/json",
+          "application/yaml"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "tektonDev_v1alpha1"
+        ],
+        "operationId": "deleteTektonDevV1alpha1CollectionNamespacedRun",
+        "parameters": [
+          {
+            "uniqueItems": true,
+            "type": "boolean",
+            "description": "allowWatchBookmarks requests watch events with type \"BOOKMARK\". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored. If the feature gate WatchBookmarks is not enabled in apiserver, this field is ignored.",
+            "name": "allowWatchBookmarks",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \"next key\".\n\nThis field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.",
+            "name": "continue",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "A selector to restrict the list of returned objects by their fields. Defaults to everything.",
+            "name": "fieldSelector",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "A selector to restrict the list of returned objects by their labels. Defaults to everything.",
+            "name": "labelSelector",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "integer",
+            "description": "limit is a maximum number of responses to return for a list call. If more items exist, the server will set the `continue` field on the list metadata to a value that can be used with the same initial query to retrieve the next set of results. Setting a limit may return fewer than the requested amount of items (up to zero items) in the event all requested objects are filtered out and clients should only use the presence of the continue field to determine whether more results are available. Servers may choose not to support the limit argument and will return all of the available results. If limit is specified and the continue field is empty, clients may assume that no more results are available. This field is not supported if watch is true.\n\nThe server guarantees that the objects returned when using continue will be identical to issuing a single list call without a limit - that is, no objects created, modified, or deleted after the first request is issued will be included in any subsequent continued requests. This is sometimes referred to as a consistent snapshot, and ensures that a client that is using limit to receive smaller chunks of a very large result can ensure they see all possible objects. If objects are updated during a chunked list the version of the object that was present at the time the first list result was calculated is returned.",
+            "name": "limit",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.",
+            "name": "resourceVersion",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "integer",
+            "description": "Timeout for the list/watch call. This limits the duration of the call, regardless of any activity or inactivity.",
+            "name": "timeoutSeconds",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "boolean",
+            "description": "Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.",
+            "name": "watch",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Status"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "x-kubernetes-action": "deletecollection",
+        "x-kubernetes-group-version-kind": {
+          "group": "tekton.dev",
+          "kind": "Run",
+          "version": "v1alpha1"
+        }
+      },
+      "parameters": [
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "object name and auth scope, such as for teams and projects",
+          "name": "namespace",
+          "in": "path",
+          "required": true
+        },
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "If 'true', then the output is pretty printed.",
+          "name": "pretty",
+          "in": "query"
+        }
+      ]
+    },
+    "/apis/tekton.dev/v1alpha1/namespaces/{namespace}/runs/{name}": {
+      "get": {
+        "description": "read the specified Run",
+        "consumes": [
+          "application/json",
+          "application/yaml"
+        ],
+        "produces": [
+          "application/json",
+          "application/yaml"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "tektonDev_v1alpha1"
+        ],
+        "operationId": "readTektonDevV1alpha1NamespacedRun",
+        "parameters": [
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "When specified: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.",
+            "name": "resourceVersion",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "x-kubernetes-action": "get",
+        "x-kubernetes-group-version-kind": {
+          "group": "tekton.dev",
+          "kind": "Run",
+          "version": "v1alpha1"
+        }
+      },
+      "put": {
+        "description": "replace the specified Run",
+        "consumes": [
+          "application/json",
+          "application/yaml"
+        ],
+        "produces": [
+          "application/json",
+          "application/yaml"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "tektonDev_v1alpha1"
+        ],
+        "operationId": "replaceTektonDevV1alpha1NamespacedRun",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed",
+            "name": "dryRun",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "fieldManager is a name associated with the actor or entity that is making these changes. The value must be less than or 128 characters long, and only contain printable characters, as defined by https://golang.org/pkg/unicode/#IsPrint.",
+            "name": "fieldManager",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          "201": {
+            "description": "Created",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "x-kubernetes-action": "put",
+        "x-kubernetes-group-version-kind": {
+          "group": "tekton.dev",
+          "kind": "Run",
+          "version": "v1alpha1"
+        }
+      },
+      "delete": {
+        "description": "delete a Run",
+        "consumes": [
+          "application/json",
+          "application/yaml"
+        ],
+        "produces": [
+          "application/json",
+          "application/yaml"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "tektonDev_v1alpha1"
+        ],
+        "operationId": "deleteTektonDevV1alpha1NamespacedRun",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.DeleteOptions"
+            }
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed",
+            "name": "dryRun",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "integer",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "name": "gracePeriodSeconds",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "boolean",
+            "description": "Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both.",
+            "name": "orphanDependents",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: 'Orphan' - orphan the dependents; 'Background' - allow the garbage collector to delete the dependents in the background; 'Foreground' - a cascading policy that deletes all dependents in the foreground.",
+            "name": "propagationPolicy",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Status"
+            }
+          },
+          "202": {
+            "description": "Accepted",
+            "schema": {
+              "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Status"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "x-kubernetes-action": "delete",
+        "x-kubernetes-group-version-kind": {
+          "group": "tekton.dev",
+          "kind": "Run",
+          "version": "v1alpha1"
+        }
+      },
+      "patch": {
+        "description": "partially update the specified Run",
+        "consumes": [
+          "application/json-patch+json",
+          "application/merge-patch+json",
+          "application/apply-patch+yaml"
+        ],
+        "produces": [
+          "application/json",
+          "application/yaml"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "tektonDev_v1alpha1"
+        ],
+        "operationId": "patchTektonDevV1alpha1NamespacedRun",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Patch"
+            }
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed",
+            "name": "dryRun",
+            "in": "query"
+          },
+          {
+            "uniqueItems": true,
+            "type": "string",
+            "description": "fieldManager is a name associated with the actor or entity that is making these changes. The value must be less than or 128 characters long, and only contain printable characters, as defined by https://golang.org/pkg/unicode/#IsPrint.",
+            "name": "fieldManager",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "x-kubernetes-action": "patch",
+        "x-kubernetes-group-version-kind": {
+          "group": "tekton.dev",
+          "kind": "Run",
+          "version": "v1alpha1"
+        }
+      },
+      "parameters": [
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "name of the Run",
           "name": "name",
           "in": "path",
           "required": true
@@ -3893,7 +4443,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRunList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRunList"
             }
           },
           "401": {
@@ -3930,7 +4480,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           {
@@ -3952,19 +4502,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "401": {
@@ -4120,7 +4670,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "401": {
@@ -4157,7 +4707,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           {
@@ -4179,13 +4729,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "401": {
@@ -4323,7 +4873,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "401": {
@@ -4394,7 +4944,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "401": {
@@ -4431,7 +4981,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           {
@@ -4453,13 +5003,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "401": {
@@ -4519,7 +5069,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "401": {
@@ -4639,7 +5189,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskList"
             }
           },
           "401": {
@@ -4676,7 +5226,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           {
@@ -4698,19 +5248,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "401": {
@@ -4866,7 +5416,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "401": {
@@ -4903,7 +5453,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           {
@@ -4925,13 +5475,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "401": {
@@ -5069,7 +5619,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "401": {
@@ -5140,7 +5690,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "401": {
@@ -5177,7 +5727,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           {
@@ -5199,13 +5749,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "401": {
@@ -5265,7 +5815,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "401": {
@@ -5327,7 +5877,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResourceList"
+              "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
             }
           },
           "401": {
@@ -5429,7 +5979,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRunList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRun"
             }
           },
           "401": {
@@ -5531,7 +6081,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Pipeline"
             }
           },
           "401": {
@@ -5542,6 +6092,108 @@
         "x-kubernetes-group-version-kind": {
           "group": "tekton.dev",
           "kind": "Pipeline",
+          "version": "v1alpha1"
+        }
+      },
+      "parameters": [
+        {
+          "uniqueItems": true,
+          "type": "boolean",
+          "description": "allowWatchBookmarks requests watch events with type \"BOOKMARK\". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored. If the feature gate WatchBookmarks is not enabled in apiserver, this field is ignored.",
+          "name": "allowWatchBookmarks",
+          "in": "query"
+        },
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server, the server will respond with a 410 ResourceExpired error together with a continue token. If the client needs a consistent list, it must restart their list without the continue field. Otherwise, the client may send another list request with the token received with the 410 error, the server will respond with a list starting from the next key, but from the latest snapshot, which is inconsistent from the previous list results - objects that are created, modified, or deleted after the first list request will be included in the response, as long as their keys are after the \"next key\".\n\nThis field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications.",
+          "name": "continue",
+          "in": "query"
+        },
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "A selector to restrict the list of returned objects by their fields. Defaults to everything.",
+          "name": "fieldSelector",
+          "in": "query"
+        },
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "A selector to restrict the list of returned objects by their labels. Defaults to everything.",
+          "name": "labelSelector",
+          "in": "query"
+        },
+        {
+          "uniqueItems": true,
+          "type": "integer",
+          "description": "limit is a maximum number of responses to return for a list call. If more items exist, the server will set the `continue` field on the list metadata to a value that can be used with the same initial query to retrieve the next set of results. Setting a limit may return fewer than the requested amount of items (up to zero items) in the event all requested objects are filtered out and clients should only use the presence of the continue field to determine whether more results are available. Servers may choose not to support the limit argument and will return all of the available results. If limit is specified and the continue field is empty, clients may assume that no more results are available. This field is not supported if watch is true.\n\nThe server guarantees that the objects returned when using continue will be identical to issuing a single list call without a limit - that is, no objects created, modified, or deleted after the first request is issued will be included in any subsequent continued requests. This is sometimes referred to as a consistent snapshot, and ensures that a client that is using limit to receive smaller chunks of a very large result can ensure they see all possible objects. If objects are updated during a chunked list the version of the object that was present at the time the first list result was calculated is returned.",
+          "name": "limit",
+          "in": "query"
+        },
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "If 'true', then the output is pretty printed.",
+          "name": "pretty",
+          "in": "query"
+        },
+        {
+          "uniqueItems": true,
+          "type": "string",
+          "description": "When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.",
+          "name": "resourceVersion",
+          "in": "query"
+        },
+        {
+          "uniqueItems": true,
+          "type": "integer",
+          "description": "Timeout for the list/watch call. This limits the duration of the call, regardless of any activity or inactivity.",
+          "name": "timeoutSeconds",
+          "in": "query"
+        },
+        {
+          "uniqueItems": true,
+          "type": "boolean",
+          "description": "Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.",
+          "name": "watch",
+          "in": "query"
+        }
+      ]
+    },
+    "/apis/tekton.dev/v1alpha1/runs": {
+      "get": {
+        "description": "list objects of kind Run",
+        "consumes": [
+          "application/json",
+          "application/yaml"
+        ],
+        "produces": [
+          "application/json",
+          "application/yaml"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "tektonDev_v1alpha1"
+        ],
+        "operationId": "listTektonDevV1alpha1RunForAllNamespaces",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Run"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        },
+        "x-kubernetes-action": "list",
+        "x-kubernetes-group-version-kind": {
+          "group": "tekton.dev",
+          "kind": "Run",
           "version": "v1alpha1"
         }
       },
@@ -5633,7 +6285,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRunList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRun"
             }
           },
           "401": {
@@ -5735,7 +6387,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1alpha1.TaskList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Task"
             }
           },
           "401": {
@@ -5895,7 +6547,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTaskList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTaskList"
             }
           },
           "401": {
@@ -5932,7 +6584,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           {
@@ -5954,19 +6606,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "401": {
@@ -6114,7 +6766,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "401": {
@@ -6151,7 +6803,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           {
@@ -6173,13 +6825,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "401": {
@@ -6317,7 +6969,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "401": {
@@ -6380,7 +7032,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "401": {
@@ -6417,7 +7069,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           {
@@ -6439,13 +7091,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "401": {
@@ -6505,7 +7157,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.ClusterTask"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ClusterTask"
             }
           },
           "401": {
@@ -6617,7 +7269,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunList"
             }
           },
           "401": {
@@ -6654,7 +7306,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           {
@@ -6676,19 +7328,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "401": {
@@ -6844,7 +7496,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "401": {
@@ -6881,7 +7533,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           {
@@ -6903,13 +7555,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "401": {
@@ -7047,7 +7699,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "401": {
@@ -7118,7 +7770,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "401": {
@@ -7155,7 +7807,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           {
@@ -7177,13 +7829,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "401": {
@@ -7243,7 +7895,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "401": {
@@ -7363,7 +8015,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineList"
             }
           },
           "401": {
@@ -7400,7 +8052,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           {
@@ -7422,19 +8074,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "401": {
@@ -7590,7 +8242,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "401": {
@@ -7627,7 +8279,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           {
@@ -7649,13 +8301,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "401": {
@@ -7793,7 +8445,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "401": {
@@ -7864,7 +8516,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "401": {
@@ -7901,7 +8553,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           {
@@ -7923,13 +8575,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "401": {
@@ -7989,7 +8641,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Pipeline"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "401": {
@@ -8109,7 +8761,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunList"
             }
           },
           "401": {
@@ -8146,7 +8798,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           {
@@ -8168,19 +8820,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "401": {
@@ -8336,7 +8988,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "401": {
@@ -8373,7 +9025,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           {
@@ -8395,13 +9047,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "401": {
@@ -8539,7 +9191,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "401": {
@@ -8610,7 +9262,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "401": {
@@ -8647,7 +9299,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           {
@@ -8669,13 +9321,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "401": {
@@ -8735,7 +9387,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRun"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "401": {
@@ -8855,7 +9507,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskList"
             }
           },
           "401": {
@@ -8892,7 +9544,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           {
@@ -8914,19 +9566,19 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "202": {
             "description": "Accepted",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "401": {
@@ -9082,7 +9734,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "401": {
@@ -9119,7 +9771,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           {
@@ -9141,13 +9793,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "401": {
@@ -9285,7 +9937,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "401": {
@@ -9356,7 +10008,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "401": {
@@ -9393,7 +10045,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           {
@@ -9415,13 +10067,13 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "201": {
             "description": "Created",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "401": {
@@ -9481,7 +10133,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.Task"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "401": {
@@ -9543,7 +10195,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRun"
             }
           },
           "401": {
@@ -9645,7 +10297,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.PipelineList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Pipeline"
             }
           },
           "401": {
@@ -9747,7 +10399,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRun"
             }
           },
           "401": {
@@ -9849,7 +10501,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/dev.tekton.v1beta1.TaskList"
+              "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Task"
             }
           },
           "401": {
@@ -9936,6 +10588,7 @@
       "type": "object",
       "properties": {
         "lastTransitionTime": {
+          "description": "LastTransitionTime is the last time the condition transitioned from one status to another. We use VolatileTime in place of metav1.Time to exclude this from creating equality.Semantic differences (all other things held constant).",
           "type": "Any"
         },
         "message": {
@@ -9947,19 +10600,20 @@
           "type": "string"
         },
         "severity": {
-          "description": "ConditionSeverity expresses the severity of a Condition Type failing.",
+          "description": "Severity with which to treat failures of this type of condition. When this is not specified, it defaults to Error.",
           "type": "string"
         },
         "status": {
+          "description": "Status of the condition, one of True, False, Unknown.",
           "type": "string"
         },
         "type": {
-          "description": "ConditionType is a camel-cased condition type.",
+          "description": "Type of condition.",
           "type": "string"
         }
       }
     },
-    "dev.tekton.pod.Template": {
+    "dev.tekton.pipeline.pod.Template": {
       "description": "PodTemplate holds pod specific configuration",
       "type": "object",
       "properties": {
@@ -9976,7 +10630,7 @@
           "$ref": "#/definitions/io.k8s.api.core.v1.PodDNSConfig"
         },
         "dnsPolicy": {
-          "description": "DNSPolicy defines how a pod's DNS will be configured.",
+          "description": "Set DNS policy for the pod. Defaults to \"ClusterFirst\". Valid values are 'ClusterFirst', 'Default' or 'None'. DNS parameters given in DNSConfig will be merged with the policy selected with DNSPolicy.",
           "type": "string"
         },
         "enableServiceLinks": {
@@ -9986,6 +10640,13 @@
         "hostNetwork": {
           "description": "HostNetwork specifies whether the pod may use the node network namespace",
           "type": "boolean"
+        },
+        "imagePullSecrets": {
+          "description": "ImagePullSecrets gives the name of the secret used by the pod to pull the image if specified",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/io.k8s.api.core.v1.LocalObjectReference"
+          }
         },
         "nodeSelector": {
           "description": "NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/",
@@ -10026,7 +10687,7 @@
         }
       }
     },
-    "dev.tekton.v1alpha1.ClusterTask": {
+    "dev.tekton.pipeline.v1alpha1.ClusterTask": {
       "description": "ClusterTask is a Task with a cluster scope. ClusterTasks are used to represent Tasks that should be publicly addressable from any namespace in the cluster.",
       "type": "object",
       "properties": {
@@ -10043,7 +10704,7 @@
         },
         "spec": {
           "description": "Spec holds the desired state of the Task from the client",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskSpec"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -10054,7 +10715,7 @@
         }
       ]
     },
-    "dev.tekton.v1alpha1.Condition": {
+    "dev.tekton.pipeline.v1alpha1.Condition": {
       "description": "Condition declares a step that is used to gate the execution of a Task in a Pipeline. A condition execution (ConditionCheck) evaluates to either true or false",
       "type": "object",
       "properties": {
@@ -10071,7 +10732,7 @@
         },
         "spec": {
           "description": "Spec holds the desired state of the Condition from the client",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.ConditionSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.ConditionSpec"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -10082,13 +10743,13 @@
         }
       ]
     },
-    "dev.tekton.v1alpha1.ConditionSpec": {
+    "dev.tekton.pipeline.v1alpha1.ConditionSpec": {
       "description": "ConditionSpec defines the desired state of the Condition",
       "type": "object",
       "properties": {
         "check": {
           "description": "Check declares container whose exit code determines where a condition is true or false",
-          "$ref": "#/definitions/dev.tekton.v1beta1.Step"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Step"
         },
         "description": {
           "description": "Description is a user-facing description of the condition that may be used to populate a UI.",
@@ -10098,19 +10759,19 @@
           "description": "Params is an optional set of parameters which must be supplied by the user when a Condition is evaluated",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.ParamSpec"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ParamSpec"
           }
         },
         "resources": {
           "description": "Resources is a list of the ConditionResources required to run the condition.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1alpha1.ResourceDeclaration"
+            "$ref": "#/definitions/dev.tekton.resource.v1alpha1.ResourceDeclaration"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.Inputs": {
+    "dev.tekton.pipeline.v1alpha1.Inputs": {
       "description": "Inputs are the requirements that a task needs to run a Build.",
       "type": "object",
       "properties": {
@@ -10118,37 +10779,37 @@
           "description": "Params is a list of input parameters required to run the task. Params must be supplied as inputs in TaskRuns unless they declare a default value.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.ParamSpec"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ParamSpec"
           }
         },
         "resources": {
           "description": "Resources is a list of the input resources required to run the task. Resources are represented in TaskRuns as bindings to instances of PipelineResources.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResource"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.Outputs": {
+    "dev.tekton.pipeline.v1alpha1.Outputs": {
       "description": "Outputs allow a task to declare what data the Build/Task will be producing, i.e. results such as logs and artifacts such as images.",
       "type": "object",
       "properties": {
         "resources": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResource"
           }
         },
         "results": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1alpha1.TestResult"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TestResult"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.Pipeline": {
+    "dev.tekton.pipeline.v1alpha1.Pipeline": {
       "description": "Pipeline describes a list of Tasks to execute. It expresses how outputs of tasks feed into inputs of subsequent tasks.",
       "type": "object",
       "properties": {
@@ -10165,11 +10826,11 @@
         },
         "spec": {
           "description": "Spec holds the desired state of the Pipeline from the client",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineSpec"
         },
         "status": {
           "description": "Status is deprecated. It usually is used to communicate the observed state of the Pipeline from the controller, but was unused as there is no controller for Pipeline.",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineStatus"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineStatus"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -10180,69 +10841,11 @@
         }
       ]
     },
-    "dev.tekton.v1alpha1.PipelineResource": {
+    "dev.tekton.pipeline.v1alpha1.PipelineResource": {
       "description": "PipelineResource describes a resource that is an input to or output from a Task.",
-      "type": "object",
-      "properties": {
-        "apiVersion": {
-          "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources",
-          "type": "string"
-        },
-        "kind": {
-          "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds",
-          "type": "string"
-        },
-        "metadata": {
-          "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
-        },
-        "spec": {
-          "description": "Spec holds the desired state of the PipelineResource from the client",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResourceSpec"
-        },
-        "status": {
-          "description": "Status is deprecated. It usually is used to communicate the observed state of the PipelineResource from the controller, but was unused as there is no controller for PipelineResource.",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResourceStatus"
-        }
-      },
-      "x-kubernetes-group-version-kind": [
-        {
-          "group": "tekton.dev",
-          "kind": "PipelineResource",
-          "version": "v1alpha1"
-        }
-      ]
+      "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResource"
     },
-    "dev.tekton.v1alpha1.PipelineResourceSpec": {
-      "description": "PipelineResourceSpec defines  an individual resources used in the pipeline.",
-      "type": "object",
-      "properties": {
-        "description": {
-          "description": "Description is a user-facing description of the resource that may be used to populate a UI.",
-          "type": "string"
-        },
-        "params": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/dev.tekton.v1alpha1.ResourceParam"
-          }
-        },
-        "secrets": {
-          "description": "Secrets to fetch to populate some of resource fields",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/dev.tekton.v1alpha1.SecretParam"
-          }
-        },
-        "type": {
-          "type": "string"
-        }
-      }
-    },
-    "dev.tekton.v1alpha1.PipelineResourceStatus": {
-      "description": "PipelineResourceStatus does not contain anything because PipelineResources on their own do not have a status Deprecated",
-      "type": "object"
-    },
-    "dev.tekton.v1alpha1.PipelineRun": {
+    "dev.tekton.pipeline.v1alpha1.PipelineRun": {
       "description": "PipelineRun represents a single execution of a Pipeline. PipelineRuns are how the graph of Tasks declared in a Pipeline are executed; they specify inputs to Pipelines such as parameter values and capture operational aspects of the Tasks execution such as service account and tolerations. Creating a PipelineRun creates TaskRuns for Tasks in the referenced Pipeline.",
       "type": "object",
       "properties": {
@@ -10258,10 +10861,10 @@
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
         },
         "spec": {
-          "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineRunSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineRunSpec"
         },
         "status": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunStatus"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunStatus"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -10272,7 +10875,7 @@
         }
       ]
     },
-    "dev.tekton.v1alpha1.PipelineRunSpec": {
+    "dev.tekton.pipeline.v1alpha1.PipelineRunSpec": {
       "description": "PipelineRunSpec defines the desired state of PipelineRun",
       "type": "object",
       "properties": {
@@ -10280,24 +10883,24 @@
           "description": "Params is a list of parameter names and values.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Param"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
           }
         },
         "pipelineRef": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRef"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRef"
         },
         "pipelineSpec": {
-          "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineSpec"
         },
         "podTemplate": {
           "description": "PodTemplate holds pod specific configuration",
-          "$ref": "#/definitions/dev.tekton.pod.Template"
+          "$ref": "#/definitions/dev.tekton.pipeline.pod.Template"
         },
         "resources": {
           "description": "Resources is a list of bindings specifying which actual instances of PipelineResources to use for the resources the Pipeline has declared it needs.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineResourceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineResourceBinding"
           }
         },
         "serviceAccountName": {
@@ -10306,33 +10909,34 @@
         "serviceAccountNames": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunSpecServiceAccountName"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunSpecServiceAccountName"
           }
         },
         "status": {
-          "description": "PipelineRunSpecStatus defines the pipelinerun spec status the user can provide",
+          "description": "Used for cancelling a pipelinerun (and maybe more later on)",
           "type": "string"
         },
         "taskRunSpecs": {
           "description": "TaskRunSpecs holds a set of task specific specs",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineTaskRunSpec"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineTaskRunSpec"
           }
         },
         "timeout": {
+          "description": "Time after which the Pipeline times out. Defaults to never. Refer to Go's ParseDuration documentation for expected format: https://golang.org/pkg/time/#ParseDuration",
           "type": "string"
         },
         "workspaces": {
           "description": "Workspaces holds a set of workspace bindings that must match names with those declared in the pipeline.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspaceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspaceBinding"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.PipelineSpec": {
+    "dev.tekton.pipeline.v1alpha1.PipelineSpec": {
       "description": "PipelineSpec defines the desired state of Pipeline.",
       "type": "object",
       "properties": {
@@ -10344,44 +10948,44 @@
           "description": "Params declares a list of input parameters that must be supplied when this Pipeline is run.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.ParamSpec"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ParamSpec"
           }
         },
         "resources": {
           "description": "Resources declares the names and types of the resources given to the Pipeline's tasks as inputs and outputs.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineDeclaredResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineDeclaredResource"
           }
         },
         "results": {
           "description": "Results are values that this pipeline can output once run",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineResult"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineResult"
           }
         },
         "tasks": {
           "description": "Tasks declares the graph of Tasks that execute when this Pipeline is run.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineTask"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.PipelineTask"
           }
         },
         "workspaces": {
           "description": "Workspaces declares a set of named workspaces that are expected to be provided by a PipelineRun.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspacePipelineDeclaration"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineWorkspaceDeclaration"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.PipelineStatus": {
+    "dev.tekton.pipeline.v1alpha1.PipelineStatus": {
       "description": "PipelineStatus does not contain anything because Pipelines on their own do not have a status, they just hold data which is later used by a PipelineRun. Deprecated",
       "type": "object"
     },
-    "dev.tekton.v1alpha1.PipelineTask": {
+    "dev.tekton.pipeline.v1alpha1.PipelineTask": {
       "description": "PipelineTask defines a task in a Pipeline, passing inputs from both Params and from the output of previous tasks.",
       "type": "object",
       "properties": {
@@ -10389,7 +10993,7 @@
           "description": "Conditions is a list of conditions that need to be true for the task to run",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTaskCondition"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskCondition"
           }
         },
         "name": {
@@ -10400,12 +11004,12 @@
           "description": "Parameters declares parameters passed to this task.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Param"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
           }
         },
         "resources": {
           "description": "Resources declares the resources given to this task as inputs and outputs.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTaskResources"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskResources"
         },
         "retries": {
           "description": "Retries represents how many times this task should be retried in case of task failure: ConditionSucceeded set to False",
@@ -10420,25 +11024,26 @@
         },
         "taskRef": {
           "description": "TaskRef is a reference to a task definition.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRef"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRef"
         },
         "taskSpec": {
           "description": "TaskSpec is specification of a task",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskSpec"
         },
         "timeout": {
+          "description": "Time after which the TaskRun times out. Defaults to 1 hour. Specified TaskRun timeout should be less than 24h. Refer Go's ParseDuration documentation for expected format: https://golang.org/pkg/time/#ParseDuration",
           "type": "string"
         },
         "workspaces": {
           "description": "Workspaces maps workspaces from the pipeline spec to the workspaces declared in the Task.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspacePipelineTaskBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspacePipelineTaskBinding"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.PipelineTaskRunSpec": {
+    "dev.tekton.pipeline.v1alpha1.PipelineTaskRunSpec": {
       "description": "PipelineTaskRunSpec holds task specific specs",
       "type": "object",
       "properties": {
@@ -10446,67 +11051,108 @@
           "type": "string"
         },
         "taskPodTemplate": {
-          "$ref": "#/definitions/dev.tekton.pod.Template"
+          "$ref": "#/definitions/dev.tekton.pipeline.pod.Template"
         },
         "taskServiceAccountName": {
           "type": "string"
         }
       }
     },
-    "dev.tekton.v1alpha1.ResourceDeclaration": {
-      "description": "ResourceDeclaration defines an input or output PipelineResource declared as a requirement by another type such as a Task or Condition. The Name field will be used to refer to these PipelineResources within the type's definition, and when provided as an Input, the Name will be the path to the volume mounted containing this PipelineResource as an input (e.g. an input Resource named `workspace` will be mounted at `/workspace`).",
+    "dev.tekton.pipeline.v1alpha1.Run": {
+      "description": "Run represents a single execution of a Custom Task.",
       "type": "object",
       "properties": {
-        "description": {
-          "description": "Description is a user-facing description of the declared resource that may be used to populate a UI.",
+        "apiVersion": {
+          "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources",
           "type": "string"
         },
-        "name": {
-          "description": "Name declares the name by which a resource is referenced in the definition. Resources may be referenced by name in the definition of a Task's steps.",
+        "kind": {
+          "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds",
           "type": "string"
         },
-        "optional": {
-          "description": "Optional declares the resource as optional. By default optional is set to false which makes a resource required. optional: true - the resource is considered optional optional: false - the resource is considered required (equivalent of not specifying it)",
-          "type": "boolean"
+        "metadata": {
+          "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
         },
-        "targetPath": {
-          "description": "TargetPath is the path in workspace directory where the resource will be copied.",
-          "type": "string"
+        "spec": {
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.RunSpec"
         },
-        "type": {
-          "description": "Type is the type of this resource;",
+        "status": {
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.RunStatus"
+        }
+      },
+      "x-kubernetes-group-version-kind": [
+        {
+          "group": "tekton.dev",
+          "kind": "Run",
+          "version": "v1alpha1"
+        }
+      ]
+    },
+    "dev.tekton.pipeline.v1alpha1.RunSpec": {
+      "description": "RunSpec defines the desired state of Run",
+      "type": "object",
+      "properties": {
+        "params": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
+          }
+        },
+        "ref": {
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRef"
+        },
+        "status": {
+          "description": "Used for cancelling a run (and maybe more later on)",
           "type": "string"
         }
       }
     },
-    "dev.tekton.v1alpha1.ResourceParam": {
-      "description": "ResourceParam declares a string value to use for the parameter called Name, and is used in the specific context of PipelineResources.",
+    "dev.tekton.pipeline.v1alpha1.RunStatus": {
       "type": "object",
       "properties": {
-        "name": {
-          "type": "string"
+        "annotations": {
+          "description": "Annotations is additional Status fields for the Resource to save some additional State as well as convey more information to the user. This is roughly akin to Annotations on any k8s resource, just the reconciler conveying richer information outwards.",
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
         },
-        "value": {
-          "type": "string"
+        "completionTime": {
+          "description": "CompletionTime is the time the build completed.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "conditions": {
+          "description": "Conditions the latest available observations of a resource's current state.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.knative.pkg.apis.Condition"
+          }
+        },
+        "extraFields": {
+          "description": "ExtraFields holds arbitrary fields provided by the custom task controller.",
+          "$ref": "#/definitions/io.k8s.apimachinery.pkg.runtime.RawExtension"
+        },
+        "observedGeneration": {
+          "description": "ObservedGeneration is the 'Generation' of the Service that was last processed by the controller.",
+          "type": "integer",
+          "format": "int64"
+        },
+        "results": {
+          "description": "Results reports any output result values to be consumed by later tasks in a pipeline.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunResult"
+          }
+        },
+        "startTime": {
+          "description": "StartTime is the time the build is actually started.",
+          "type": "string",
+          "format": "date-time"
         }
       }
     },
-    "dev.tekton.v1alpha1.SecretParam": {
-      "description": "SecretParam indicates which secret can be used to populate a field of the resource",
-      "type": "object",
-      "properties": {
-        "fieldName": {
-          "type": "string"
-        },
-        "secretKey": {
-          "type": "string"
-        },
-        "secretName": {
-          "type": "string"
-        }
-      }
-    },
-    "dev.tekton.v1alpha1.Task": {
+    "dev.tekton.pipeline.v1alpha1.Task": {
       "description": "Task represents a collection of sequential steps that are run as part of a Pipeline using a set of inputs and producing a set of outputs. Tasks execute when TaskRuns are created that provide the input parameters and resources and output resources the Task requires.",
       "type": "object",
       "properties": {
@@ -10523,7 +11169,7 @@
         },
         "spec": {
           "description": "Spec holds the desired state of the Task from the client",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskSpec"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -10534,7 +11180,7 @@
         }
       ]
     },
-    "dev.tekton.v1alpha1.TaskRun": {
+    "dev.tekton.pipeline.v1alpha1.TaskRun": {
       "description": "TaskRun represents a single execution of a Task. TaskRuns are how the steps specified in a Task are executed; they specify the parameters and resources used to run the steps in a Task.",
       "type": "object",
       "properties": {
@@ -10550,10 +11196,10 @@
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
         },
         "spec": {
-          "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRunSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRunSpec"
         },
         "status": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunStatus"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunStatus"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -10564,88 +11210,89 @@
         }
       ]
     },
-    "dev.tekton.v1alpha1.TaskRunInputs": {
+    "dev.tekton.pipeline.v1alpha1.TaskRunInputs": {
       "description": "TaskRunInputs holds the input values that this task was invoked with.",
       "type": "object",
       "properties": {
         "params": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Param"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
           }
         },
         "resources": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResourceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResourceBinding"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.TaskRunOutputs": {
+    "dev.tekton.pipeline.v1alpha1.TaskRunOutputs": {
       "description": "TaskRunOutputs holds the output values that this task was invoked with.",
       "type": "object",
       "properties": {
         "resources": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResourceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResourceBinding"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.TaskRunSpec": {
+    "dev.tekton.pipeline.v1alpha1.TaskRunSpec": {
       "description": "TaskRunSpec defines the desired state of TaskRun",
       "type": "object",
       "properties": {
         "inputs": {
           "description": "Deprecated",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRunInputs"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRunInputs"
         },
         "outputs": {
-          "$ref": "#/definitions/dev.tekton.v1alpha1.TaskRunOutputs"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskRunOutputs"
         },
         "params": {
           "description": "From v1beta1",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Param"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
           }
         },
         "podTemplate": {
           "description": "PodTemplate holds pod specific configuration",
-          "$ref": "#/definitions/dev.tekton.pod.Template"
+          "$ref": "#/definitions/dev.tekton.pipeline.pod.Template"
         },
         "resources": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunResources"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunResources"
         },
         "serviceAccountName": {
           "type": "string"
         },
         "status": {
-          "description": "TaskRunSpecStatus defines the taskrun spec status the user can provide",
+          "description": "Used for cancelling a taskrun (and maybe more later on)",
           "type": "string"
         },
         "taskRef": {
           "description": "no more than one of the TaskRef and TaskSpec may be specified.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRef"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRef"
         },
         "taskSpec": {
-          "$ref": "#/definitions/dev.tekton.v1alpha1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.TaskSpec"
         },
         "timeout": {
+          "description": "Time after which the build times out. Defaults to 10 minutes. Specified build timeout should be less than 24h. Refer Go's ParseDuration documentation for expected format: https://golang.org/pkg/time/#ParseDuration",
           "type": "string"
         },
         "workspaces": {
           "description": "Workspaces is a list of WorkspaceBindings from volumes to workspaces.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspaceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspaceBinding"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.TaskSpec": {
+    "dev.tekton.pipeline.v1alpha1.TaskSpec": {
       "description": "TaskSpec defines the desired state of Task.",
       "type": "object",
       "properties": {
@@ -10655,35 +11302,35 @@
         },
         "inputs": {
           "description": "Inputs is an optional set of parameters and resources which must be supplied by the user when a Task is executed by a TaskRun.",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.Inputs"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Inputs"
         },
         "outputs": {
           "description": "Outputs is an optional set of resources and results produced when this Task is run.",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.Outputs"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1alpha1.Outputs"
         },
         "params": {
           "description": "Params is a list of input parameters required to run the task. Params must be supplied as inputs in TaskRuns unless they declare a default value.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.ParamSpec"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ParamSpec"
           }
         },
         "resources": {
           "description": "Resources is a list input and output resource to run the task Resources are represented in TaskRuns as bindings to instances of PipelineResources.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskResources"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResources"
         },
         "results": {
           "description": "Results are values that this Task can output",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResult"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResult"
           }
         },
         "sidecars": {
           "description": "Sidecars are run alongside the Task's step containers. They begin before the steps start and end after the steps complete.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Step"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Sidecar"
           }
         },
         "stepTemplate": {
@@ -10694,7 +11341,7 @@
           "description": "Steps are the steps of the build; each step is run sequentially with the source mounted into /workspace.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Step"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Step"
           }
         },
         "volumes": {
@@ -10708,12 +11355,12 @@
           "description": "Workspaces are the volumes that this Task requires.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspaceDeclaration"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspaceDeclaration"
           }
         }
       }
     },
-    "dev.tekton.v1alpha1.TestResult": {
+    "dev.tekton.pipeline.v1alpha1.TestResult": {
       "description": "TestResult allows a task to specify the location where test logs can be found and what format they will be in.",
       "type": "object",
       "properties": {
@@ -10730,12 +11377,12 @@
         }
       }
     },
-    "dev.tekton.v1beta1.CloudEventDelivery": {
+    "dev.tekton.pipeline.v1beta1.CloudEventDelivery": {
       "description": "CloudEventDelivery is the target of a cloud event along with the state of delivery.",
       "type": "object",
       "properties": {
         "status": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.CloudEventDeliveryState"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.CloudEventDeliveryState"
         },
         "target": {
           "description": "Target points to an addressable",
@@ -10743,12 +11390,12 @@
         }
       }
     },
-    "dev.tekton.v1beta1.CloudEventDeliveryState": {
+    "dev.tekton.pipeline.v1beta1.CloudEventDeliveryState": {
       "description": "CloudEventDeliveryState reports the state of a cloud event to be sent.",
       "type": "object",
       "properties": {
         "condition": {
-          "description": "CloudEventCondition is a string that represents the condition of the event.",
+          "description": "Current status",
           "type": "string"
         },
         "message": {
@@ -10761,12 +11408,13 @@
           "format": "int32"
         },
         "sentAt": {
+          "description": "SentAt is the time at which the last attempt to send the event was made",
           "type": "string",
           "format": "date-time"
         }
       }
     },
-    "dev.tekton.v1beta1.ClusterTask": {
+    "dev.tekton.pipeline.v1beta1.ClusterTask": {
       "description": "ClusterTask is a Task with a cluster scope. ClusterTasks are used to represent Tasks that should be publicly addressable from any namespace in the cluster.",
       "type": "object",
       "properties": {
@@ -10783,7 +11431,7 @@
         },
         "spec": {
           "description": "Spec holds the desired state of the Task from the client",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskSpec"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -10794,20 +11442,28 @@
         }
       ]
     },
-    "dev.tekton.v1beta1.ConditionCheckStatus": {
+    "dev.tekton.pipeline.v1beta1.ConditionCheckStatus": {
       "description": "ConditionCheckStatus defines the observed state of ConditionCheck",
       "type": "object",
       "properties": {
+        "annotations": {
+          "description": "Annotations is additional Status fields for the Resource to save some additional State as well as convey more information to the user. This is roughly akin to Annotations on any k8s resource, just the reconciler conveying richer information outwards.",
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
         "check": {
           "description": "Check describes the state of the check container.",
           "$ref": "#/definitions/io.k8s.api.core.v1.ContainerState"
         },
         "completionTime": {
+          "description": "CompletionTime is the time the check pod completed.",
           "type": "string",
           "format": "date-time"
         },
         "conditions": {
-          "description": "Conditions is the schema for the conditions portion of the payload",
+          "description": "Conditions the latest available observations of a resource's current state.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/dev.knative.pkg.apis.Condition"
@@ -10823,12 +11479,75 @@
           "type": "string"
         },
         "startTime": {
+          "description": "StartTime is the time the check is actually started.",
           "type": "string",
           "format": "date-time"
         }
       }
     },
-    "dev.tekton.v1beta1.Param": {
+    "dev.tekton.pipeline.v1beta1.EmbeddedTask": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "description": "Description is a user-facing description of the task that may be used to populate a UI.",
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskMetadata"
+        },
+        "params": {
+          "description": "Params is a list of input parameters required to run the task. Params must be supplied as inputs in TaskRuns unless they declare a default value.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ParamSpec"
+          }
+        },
+        "resources": {
+          "description": "Resources is a list input and output resource to run the task Resources are represented in TaskRuns as bindings to instances of PipelineResources.",
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResources"
+        },
+        "results": {
+          "description": "Results are values that this Task can output",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResult"
+          }
+        },
+        "sidecars": {
+          "description": "Sidecars are run alongside the Task's step containers. They begin before the steps start and end after the steps complete.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Sidecar"
+          }
+        },
+        "stepTemplate": {
+          "description": "StepTemplate can be used as the basis for all step containers within the Task, so that the steps inherit settings on the base container.",
+          "$ref": "#/definitions/io.k8s.api.core.v1.Container"
+        },
+        "steps": {
+          "description": "Steps are the steps of the build; each step is run sequentially with the source mounted into /workspace.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Step"
+          }
+        },
+        "volumes": {
+          "description": "Volumes is a collection of volumes that are available to mount into the steps of the build.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/io.k8s.api.core.v1.Volume"
+          }
+        },
+        "workspaces": {
+          "description": "Workspaces are the volumes that this Task requires.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspaceDeclaration"
+          }
+        }
+      }
+    },
+    "dev.tekton.pipeline.v1beta1.Param": {
       "description": "Param declares an ArrayOrString to use for the parameter called name.",
       "type": "object",
       "properties": {
@@ -10840,11 +11559,12 @@
         }
       }
     },
-    "dev.tekton.v1beta1.ParamSpec": {
+    "dev.tekton.pipeline.v1beta1.ParamSpec": {
       "description": "ParamSpec defines arbitrary parameters needed beyond typed inputs (such as resources). Parameter values are provided by users as inputs on a TaskRun or PipelineRun.",
       "type": "object",
       "properties": {
         "default": {
+          "description": "Default is the value a parameter takes if no input value is supplied. If default is set, a Task may be executed without a supplied value for the parameter.",
           "type": "Any"
         },
         "description": {
@@ -10856,12 +11576,12 @@
           "type": "string"
         },
         "type": {
-          "description": "ParamType indicates the type of an input parameter; Used to distinguish between a single string and an array of strings.",
+          "description": "Type is the user-specified type of the parameter. The possible types are currently \"string\" and \"array\", and \"string\" is the default.",
           "type": "string"
         }
       }
     },
-    "dev.tekton.v1beta1.Pipeline": {
+    "dev.tekton.pipeline.v1beta1.Pipeline": {
       "description": "Pipeline describes a list of Tasks to execute. It expresses how outputs of tasks feed into inputs of subsequent tasks.",
       "type": "object",
       "properties": {
@@ -10878,7 +11598,7 @@
         },
         "spec": {
           "description": "Spec holds the desired state of the Pipeline from the client",
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineSpec"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -10889,7 +11609,7 @@
         }
       ]
     },
-    "dev.tekton.v1beta1.PipelineDeclaredResource": {
+    "dev.tekton.pipeline.v1beta1.PipelineDeclaredResource": {
       "description": "PipelineDeclaredResource is used by a Pipeline to declare the types of the PipelineResources that it will required to run and names which can be used to refer to these PipelineResources in PipelineTaskResourceBindings.",
       "type": "object",
       "properties": {
@@ -10907,7 +11627,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineRef": {
+    "dev.tekton.pipeline.v1beta1.PipelineRef": {
       "description": "PipelineRef can be used to refer to a specific instance of a Pipeline. Copied from CrossVersionObjectReference: https://github.com/kubernetes/kubernetes/blob/169df7434155cbbc22f1532cba8e0a9588e29ad8/pkg/apis/autoscaling/types.go#L64",
       "type": "object",
       "properties": {
@@ -10921,7 +11641,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineResourceBinding": {
+    "dev.tekton.pipeline.v1beta1.PipelineResourceBinding": {
       "description": "PipelineResourceBinding connects a reference to an instance of a PipelineResource with a PipelineResource dependency that the Pipeline has declared",
       "type": "object",
       "properties": {
@@ -10931,15 +11651,15 @@
         },
         "resourceRef": {
           "description": "ResourceRef is a reference to the instance of the actual PipelineResource that should be used",
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineResourceRef"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineResourceRef"
         },
         "resourceSpec": {
           "description": "ResourceSpec is specification of a resource that should be created and consumed by the task",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResourceSpec"
+          "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResourceSpec"
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineResourceRef": {
+    "dev.tekton.pipeline.v1beta1.PipelineResourceRef": {
       "description": "PipelineResourceRef can be used to refer to a specific instance of a Resource",
       "type": "object",
       "properties": {
@@ -10953,18 +11673,21 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineResourceResult": {
+    "dev.tekton.pipeline.v1beta1.PipelineResourceResult": {
       "description": "PipelineResourceResult used to export the image name and digest as json",
       "type": "object",
       "properties": {
         "key": {
           "type": "string"
         },
+        "resourceName": {
+          "type": "string"
+        },
         "resourceRef": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineResourceRef"
+          "description": "The field ResourceRef should be deprecated and removed in the next API version. See https://github.com/tektoncd/pipeline/issues/2694 for more information.",
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineResourceRef"
         },
         "type": {
-          "description": "ResultType used to find out whether a PipelineResourceResult is from a task result or not",
           "type": "string"
         },
         "value": {
@@ -10972,7 +11695,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineResult": {
+    "dev.tekton.pipeline.v1beta1.PipelineResult": {
       "description": "PipelineResult used to describe the results of a pipeline",
       "type": "object",
       "properties": {
@@ -10990,7 +11713,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineRun": {
+    "dev.tekton.pipeline.v1beta1.PipelineRun": {
       "description": "PipelineRun represents a single execution of a Pipeline. PipelineRuns are how the graph of Tasks declared in a Pipeline are executed; they specify inputs to Pipelines such as parameter values and capture operational aspects of the Tasks execution such as service account and tolerations. Creating a PipelineRun creates TaskRuns for Tasks in the referenced Pipeline.",
       "type": "object",
       "properties": {
@@ -11006,10 +11729,10 @@
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
         },
         "spec": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunSpec"
         },
         "status": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunStatus"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunStatus"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -11020,7 +11743,7 @@
         }
       ]
     },
-    "dev.tekton.v1beta1.PipelineRunConditionCheckStatus": {
+    "dev.tekton.pipeline.v1beta1.PipelineRunConditionCheckStatus": {
       "description": "PipelineRunConditionCheckStatus returns the condition check status",
       "type": "object",
       "properties": {
@@ -11030,11 +11753,11 @@
         },
         "status": {
           "description": "Status is the ConditionCheckStatus for the corresponding ConditionCheck",
-          "$ref": "#/definitions/dev.tekton.v1beta1.ConditionCheckStatus"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ConditionCheckStatus"
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineRunResult": {
+    "dev.tekton.pipeline.v1beta1.PipelineRunResult": {
       "description": "PipelineRunResult used to describe the results of a pipeline",
       "type": "object",
       "properties": {
@@ -11048,7 +11771,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineRunSpec": {
+    "dev.tekton.pipeline.v1beta1.PipelineRunSpec": {
       "description": "PipelineRunSpec defines the desired state of PipelineRun",
       "type": "object",
       "properties": {
@@ -11056,59 +11779,61 @@
           "description": "Params is a list of parameter names and values.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Param"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
           }
         },
         "pipelineRef": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRef"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRef"
         },
         "pipelineSpec": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineSpec"
         },
         "podTemplate": {
           "description": "PodTemplate holds pod specific configuration",
-          "$ref": "#/definitions/dev.tekton.pod.Template"
+          "$ref": "#/definitions/dev.tekton.pipeline.pod.Template"
         },
         "resources": {
           "description": "Resources is a list of bindings specifying which actual instances of PipelineResources to use for the resources the Pipeline has declared it needs.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineResourceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineResourceBinding"
           }
         },
         "serviceAccountName": {
           "type": "string"
         },
         "serviceAccountNames": {
+          "description": "Deprecated: use taskRunSpecs.ServiceAccountName instead",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunSpecServiceAccountName"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunSpecServiceAccountName"
           }
         },
         "status": {
-          "description": "PipelineRunSpecStatus defines the pipelinerun spec status the user can provide",
+          "description": "Used for cancelling a pipelinerun (and maybe more later on)",
           "type": "string"
         },
         "taskRunSpecs": {
           "description": "TaskRunSpecs holds a set of runtime specs",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTaskRunSpec"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskRunSpec"
           }
         },
         "timeout": {
+          "description": "Time after which the Pipeline times out. Defaults to never. Refer to Go's ParseDuration documentation for expected format: https://golang.org/pkg/time/#ParseDuration",
           "type": "string"
         },
         "workspaces": {
           "description": "Workspaces holds a set of workspace bindings that must match names with those declared in the pipeline.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspaceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspaceBinding"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineRunSpecServiceAccountName": {
+    "dev.tekton.pipeline.v1beta1.PipelineRunSpecServiceAccountName": {
       "description": "PipelineRunSpecServiceAccountName can be used to configure specific ServiceAccountName for a concrete Task",
       "type": "object",
       "properties": {
@@ -11120,16 +11845,24 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineRunStatus": {
+    "dev.tekton.pipeline.v1beta1.PipelineRunStatus": {
       "description": "PipelineRunStatus defines the observed state of PipelineRun",
       "type": "object",
       "properties": {
+        "annotations": {
+          "description": "Annotations is additional Status fields for the Resource to save some additional State as well as convey more information to the user. This is roughly akin to Annotations on any k8s resource, just the reconciler conveying richer information outwards.",
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
         "completionTime": {
+          "description": "CompletionTime is the time the PipelineRun completed.",
           "type": "string",
           "format": "date-time"
         },
         "conditions": {
-          "description": "Conditions is the schema for the conditions portion of the payload",
+          "description": "Conditions the latest available observations of a resource's current state.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/dev.knative.pkg.apis.Condition"
@@ -11144,14 +11877,22 @@
           "description": "PipelineResults are the list of results written out by the pipeline task's containers",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunResult"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunResult"
           }
         },
         "pipelineSpec": {
           "description": "PipelineRunSpec contains the exact spec used to instantiate the run",
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineSpec"
+        },
+        "skippedTasks": {
+          "description": "list of tasks that were skipped due to when expressions evaluating to false",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.SkippedTask"
+          }
         },
         "startTime": {
+          "description": "StartTime is the time the PipelineRun is actually started.",
           "type": "string",
           "format": "date-time"
         },
@@ -11159,12 +11900,12 @@
           "description": "map of PipelineRunTaskRunStatus with the taskRun name as the key",
           "type": "object",
           "additionalProperties": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunTaskRunStatus"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunTaskRunStatus"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineRunTaskRunStatus": {
+    "dev.tekton.pipeline.v1beta1.PipelineRunTaskRunStatus": {
       "description": "PipelineRunTaskRunStatus contains the name of the PipelineTask for this TaskRun and the TaskRun's Status",
       "type": "object",
       "properties": {
@@ -11172,7 +11913,7 @@
           "description": "ConditionChecks maps the name of a condition check to its Status",
           "type": "object",
           "additionalProperties": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineRunConditionCheckStatus"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineRunConditionCheckStatus"
           }
         },
         "pipelineTaskName": {
@@ -11181,11 +11922,18 @@
         },
         "status": {
           "description": "Status is the TaskRunStatus for the corresponding TaskRun",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunStatus"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunStatus"
+        },
+        "whenExpressions": {
+          "description": "WhenExpressions is the list of checks guarding the execution of the PipelineTask",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WhenExpression"
+          }
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineSpec": {
+    "dev.tekton.pipeline.v1beta1.PipelineSpec": {
       "description": "PipelineSpec defines the desired state of Pipeline.",
       "type": "object",
       "properties": {
@@ -11193,52 +11941,59 @@
           "description": "Description is a user-facing description of the pipeline that may be used to populate a UI.",
           "type": "string"
         },
+        "finally": {
+          "description": "Finally declares the list of Tasks that execute just before leaving the Pipeline i.e. either after all Tasks are finished executing successfully or after a failure which would result in ending the Pipeline",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTask"
+          }
+        },
         "params": {
           "description": "Params declares a list of input parameters that must be supplied when this Pipeline is run.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.ParamSpec"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ParamSpec"
           }
         },
         "resources": {
           "description": "Resources declares the names and types of the resources given to the Pipeline's tasks as inputs and outputs.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineDeclaredResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineDeclaredResource"
           }
         },
         "results": {
           "description": "Results are values that this pipeline can output once run",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineResult"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineResult"
           }
         },
         "tasks": {
           "description": "Tasks declares the graph of Tasks that execute when this Pipeline is run.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTask"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTask"
           }
         },
         "workspaces": {
           "description": "Workspaces declares a set of named workspaces that are expected to be provided by a PipelineRun.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspacePipelineDeclaration"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineWorkspaceDeclaration"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineTask": {
+    "dev.tekton.pipeline.v1beta1.PipelineTask": {
       "description": "PipelineTask defines a task in a Pipeline, passing inputs from both Params and from the output of previous tasks.",
       "type": "object",
       "properties": {
         "conditions": {
-          "description": "Conditions is a list of conditions that need to be true for the task to run",
+          "description": "Conditions is a list of conditions that need to be true for the task to run Conditions are deprecated, use WhenExpressions instead",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTaskCondition"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskCondition"
           }
         },
         "name": {
@@ -11249,12 +12004,12 @@
           "description": "Parameters declares parameters passed to this task.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Param"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
           }
         },
         "resources": {
           "description": "Resources declares the resources given to this task as inputs and outputs.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTaskResources"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskResources"
         },
         "retries": {
           "description": "Retries represents how many times this task should be retried in case of task failure: ConditionSucceeded set to False",
@@ -11269,25 +12024,33 @@
         },
         "taskRef": {
           "description": "TaskRef is a reference to a task definition.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRef"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRef"
         },
         "taskSpec": {
           "description": "TaskSpec is a specification of a task",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.EmbeddedTask"
         },
         "timeout": {
+          "description": "Time after which the TaskRun times out. Defaults to 1 hour. Specified TaskRun timeout should be less than 24h. Refer Go's ParseDuration documentation for expected format: https://golang.org/pkg/time/#ParseDuration",
           "type": "string"
+        },
+        "when": {
+          "description": "WhenExpressions is a list of when expressions that need to be true for the task to run",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WhenExpression"
+          }
         },
         "workspaces": {
           "description": "Workspaces maps workspaces from the pipeline spec to the workspaces declared in the Task.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspacePipelineTaskBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspacePipelineTaskBinding"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineTaskCondition": {
+    "dev.tekton.pipeline.v1beta1.PipelineTaskCondition": {
       "description": "PipelineTaskCondition allows a PipelineTask to declare a Condition to be evaluated before the Task is run.",
       "type": "object",
       "properties": {
@@ -11299,19 +12062,19 @@
           "description": "Params declare parameters passed to this Condition",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Param"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
           }
         },
         "resources": {
           "description": "Resources declare the resources provided to this Condition as input",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTaskInputResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskInputResource"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineTaskInputResource": {
+    "dev.tekton.pipeline.v1beta1.PipelineTaskInputResource": {
       "description": "PipelineTaskInputResource maps the name of a declared PipelineResource input dependency in a Task to the resource in the Pipeline's DeclaredPipelineResources that should be used. This input may come from a previous task.",
       "type": "object",
       "properties": {
@@ -11332,7 +12095,24 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineTaskOutputResource": {
+    "dev.tekton.pipeline.v1beta1.PipelineTaskMetadata": {
+      "type": "object",
+      "properties": {
+        "annotations": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "labels": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dev.tekton.pipeline.v1beta1.PipelineTaskOutputResource": {
       "description": "PipelineTaskOutputResource maps the name of a declared PipelineResource output dependency in a Task to the resource in the Pipeline's DeclaredPipelineResources that should be used.",
       "type": "object",
       "properties": {
@@ -11346,7 +12126,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineTaskResources": {
+    "dev.tekton.pipeline.v1beta1.PipelineTaskResources": {
       "description": "PipelineTaskResources allows a Pipeline to declare how its DeclaredPipelineResources should be provided to a Task as its inputs and outputs.",
       "type": "object",
       "properties": {
@@ -11354,19 +12134,19 @@
           "description": "Inputs holds the mapping from the PipelineResources declared in DeclaredPipelineResources to the input PipelineResources required by the Task.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTaskInputResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskInputResource"
           }
         },
         "outputs": {
           "description": "Outputs holds the mapping from the PipelineResources declared in DeclaredPipelineResources to the input PipelineResources required by the Task.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineTaskOutputResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineTaskOutputResource"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.PipelineTaskRunSpec": {
+    "dev.tekton.pipeline.v1beta1.PipelineTaskRunSpec": {
       "description": "PipelineTaskRunSpec  can be used to configure specific specs for a concrete Task",
       "type": "object",
       "properties": {
@@ -11374,42 +12154,33 @@
           "type": "string"
         },
         "taskPodTemplate": {
-          "$ref": "#/definitions/dev.tekton.pod.Template"
+          "$ref": "#/definitions/dev.tekton.pipeline.pod.Template"
         },
         "taskServiceAccountName": {
           "type": "string"
         }
       }
     },
-    "dev.tekton.v1beta1.SidecarState": {
-      "description": "SidecarState reports the results of running a sidecar in a Task.",
+    "dev.tekton.pipeline.v1beta1.PipelineWorkspaceDeclaration": {
+      "description": "PipelineWorkspaceDeclaration creates a named slot in a Pipeline that a PipelineRun is expected to populate with a workspace binding.",
       "type": "object",
       "properties": {
-        "container": {
-          "type": "string"
-        },
-        "imageID": {
+        "description": {
+          "description": "Description is a human readable string describing how the workspace will be used in the Pipeline. It can be useful to include a bit of detail about which tasks are intended to have access to the data on the workspace.",
           "type": "string"
         },
         "name": {
+          "description": "Name is the name of a workspace to be provided by a PipelineRun.",
           "type": "string"
         },
-        "running": {
-          "description": "Details about a running container",
-          "$ref": "#/definitions/io.k8s.api.core.v1.ContainerStateRunning"
-        },
-        "terminated": {
-          "description": "Details about a terminated container",
-          "$ref": "#/definitions/io.k8s.api.core.v1.ContainerStateTerminated"
-        },
-        "waiting": {
-          "description": "Details about a waiting container",
-          "$ref": "#/definitions/io.k8s.api.core.v1.ContainerStateWaiting"
+        "optional": {
+          "description": "Optional marks a Workspace as not being required in PipelineRuns. By default this field is false and so declared workspaces are required.",
+          "type": "boolean"
         }
       }
     },
-    "dev.tekton.v1beta1.Step": {
-      "description": "Step embeds the Container type, which allows it to include fields not provided by Container.",
+    "dev.tekton.pipeline.v1beta1.Sidecar": {
+      "description": "Sidecar has nearly the same data structure as Step, consisting of a Container and an optional Script, but does not have the ability to timeout.",
       "type": "object",
       "properties": {
         "args": {
@@ -11445,7 +12216,7 @@
           "type": "string"
         },
         "imagePullPolicy": {
-          "description": "PullPolicy describes a policy for if/when to pull a container image",
+          "description": "Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images",
           "type": "string"
         },
         "lifecycle": {
@@ -11484,7 +12255,7 @@
           "$ref": "#/definitions/io.k8s.api.core.v1.SecurityContext"
         },
         "startupProbe": {
-          "description": "StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. This is an alpha feature enabled by the StartupProbe feature flag. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes",
+          "description": "StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. This is a beta feature enabled by the StartupProbe feature flag. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes",
           "$ref": "#/definitions/io.k8s.api.core.v1.Probe"
         },
         "stdin": {
@@ -11500,7 +12271,7 @@
           "type": "string"
         },
         "terminationMessagePolicy": {
-          "description": "TerminationMessagePolicy describes how termination messages are retrieved from a container.",
+          "description": "Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.",
           "type": "string"
         },
         "tty": {
@@ -11508,7 +12279,7 @@
           "type": "boolean"
         },
         "volumeDevices": {
-          "description": "volumeDevices is the list of block devices to be used by the container. This is a beta feature.",
+          "description": "volumeDevices is the list of block devices to be used by the container.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/io.k8s.api.core.v1.VolumeDevice"
@@ -11527,7 +12298,174 @@
         }
       }
     },
-    "dev.tekton.v1beta1.StepState": {
+    "dev.tekton.pipeline.v1beta1.SidecarState": {
+      "description": "SidecarState reports the results of running a sidecar in a Task.",
+      "type": "object",
+      "properties": {
+        "container": {
+          "type": "string"
+        },
+        "imageID": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "running": {
+          "description": "Details about a running container",
+          "$ref": "#/definitions/io.k8s.api.core.v1.ContainerStateRunning"
+        },
+        "terminated": {
+          "description": "Details about a terminated container",
+          "$ref": "#/definitions/io.k8s.api.core.v1.ContainerStateTerminated"
+        },
+        "waiting": {
+          "description": "Details about a waiting container",
+          "$ref": "#/definitions/io.k8s.api.core.v1.ContainerStateWaiting"
+        }
+      }
+    },
+    "dev.tekton.pipeline.v1beta1.SkippedTask": {
+      "description": "SkippedTask is used to describe the Tasks that were skipped due to their When Expressions evaluating to False. This is a struct because we are looking into including more details about the When Expressions that caused this Task to be skipped.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "Name is the Pipeline Task name",
+          "type": "string"
+        },
+        "whenExpressions": {
+          "description": "WhenExpressions is the list of checks guarding the execution of the PipelineTask",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WhenExpression"
+          }
+        }
+      }
+    },
+    "dev.tekton.pipeline.v1beta1.Step": {
+      "description": "Step embeds the Container type, which allows it to include fields not provided by Container.",
+      "type": "object",
+      "properties": {
+        "args": {
+          "description": "Arguments to the entrypoint. The docker image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "command": {
+          "description": "Entrypoint array. Not executed within a shell. The docker image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "env": {
+          "description": "List of environment variables to set in the container. Cannot be updated.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/io.k8s.api.core.v1.EnvVar"
+          }
+        },
+        "envFrom": {
+          "description": "List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/io.k8s.api.core.v1.EnvFromSource"
+          }
+        },
+        "image": {
+          "description": "Docker image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.",
+          "type": "string"
+        },
+        "imagePullPolicy": {
+          "description": "Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images",
+          "type": "string"
+        },
+        "lifecycle": {
+          "description": "Actions that the management system should take in response to container lifecycle events. Cannot be updated.",
+          "$ref": "#/definitions/io.k8s.api.core.v1.Lifecycle"
+        },
+        "livenessProbe": {
+          "description": "Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes",
+          "$ref": "#/definitions/io.k8s.api.core.v1.Probe"
+        },
+        "name": {
+          "description": "Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.",
+          "type": "string"
+        },
+        "ports": {
+          "description": "List of ports to expose from the container. Exposing a port here gives the system additional information about the network connections a container uses, but is primarily informational. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default \"0.0.0.0\" address inside a container will be accessible from the network. Cannot be updated.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/io.k8s.api.core.v1.ContainerPort"
+          }
+        },
+        "readinessProbe": {
+          "description": "Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes",
+          "$ref": "#/definitions/io.k8s.api.core.v1.Probe"
+        },
+        "resources": {
+          "description": "Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/",
+          "$ref": "#/definitions/io.k8s.api.core.v1.ResourceRequirements"
+        },
+        "script": {
+          "description": "Script is the contents of an executable file to execute. \n If Script is not empty, the Step cannot have an Command or Args.",
+          "type": "string"
+        },
+        "securityContext": {
+          "description": "Security options the pod should run with. More info: https://kubernetes.io/docs/concepts/policy/security-context/ More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/",
+          "$ref": "#/definitions/io.k8s.api.core.v1.SecurityContext"
+        },
+        "startupProbe": {
+          "description": "StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. This is a beta feature enabled by the StartupProbe feature flag. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes",
+          "$ref": "#/definitions/io.k8s.api.core.v1.Probe"
+        },
+        "stdin": {
+          "description": "Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.",
+          "type": "boolean"
+        },
+        "stdinOnce": {
+          "description": "Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false",
+          "type": "boolean"
+        },
+        "terminationMessagePath": {
+          "description": "Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.",
+          "type": "string"
+        },
+        "terminationMessagePolicy": {
+          "description": "Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.",
+          "type": "string"
+        },
+        "timeout": {
+          "description": "Timeout is the time after which the step times out. Defaults to never. Refer to Go's ParseDuration documentation for expected format: https://golang.org/pkg/time/#ParseDuration",
+          "type": "string"
+        },
+        "tty": {
+          "description": "Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.",
+          "type": "boolean"
+        },
+        "volumeDevices": {
+          "description": "volumeDevices is the list of block devices to be used by the container.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/io.k8s.api.core.v1.VolumeDevice"
+          }
+        },
+        "volumeMounts": {
+          "description": "Pod volumes to mount into the container's filesystem. Cannot be updated.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/io.k8s.api.core.v1.VolumeMount"
+          }
+        },
+        "workingDir": {
+          "description": "Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.",
+          "type": "string"
+        }
+      }
+    },
+    "dev.tekton.pipeline.v1beta1.StepState": {
       "description": "StepState reports the results of running a step in a Task.",
       "type": "object",
       "properties": {
@@ -11554,7 +12492,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.Task": {
+    "dev.tekton.pipeline.v1beta1.Task": {
       "description": "Task represents a collection of sequential steps that are run as part of a Pipeline using a set of inputs and producing a set of outputs. Tasks execute when TaskRuns are created that provide the input parameters and resources and output resources the Task requires.",
       "type": "object",
       "properties": {
@@ -11571,7 +12509,7 @@
         },
         "spec": {
           "description": "Spec holds the desired state of the Task from the client",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskSpec"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -11582,7 +12520,7 @@
         }
       ]
     },
-    "dev.tekton.v1beta1.TaskRef": {
+    "dev.tekton.pipeline.v1beta1.TaskRef": {
       "description": "TaskRef can be used to refer to a specific instance of a task. Copied from CrossVersionObjectReference: https://github.com/kubernetes/kubernetes/blob/169df7434155cbbc22f1532cba8e0a9588e29ad8/pkg/apis/autoscaling/types.go#L64",
       "type": "object",
       "properties": {
@@ -11591,7 +12529,7 @@
           "type": "string"
         },
         "kind": {
-          "description": "Check that Pipeline may be validated and defaulted. TaskKind defines the type of Task used by the pipeline.",
+          "description": "TaskKind indicates the kind of the task, namespaced or cluster scoped.",
           "type": "string"
         },
         "name": {
@@ -11600,7 +12538,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.TaskResource": {
+    "dev.tekton.pipeline.v1beta1.TaskResource": {
       "description": "TaskResource defines an input or output Resource declared as a requirement by a Task. The Name field will be used to refer to these Resources within the Task definition, and when provided as an Input, the Name will be the path to the volume mounted containing this Resource as an input (e.g. an input Resource named `workspace` will be mounted at `/workspace`).",
       "type": "object",
       "properties": {
@@ -11626,7 +12564,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.TaskResourceBinding": {
+    "dev.tekton.pipeline.v1beta1.TaskResourceBinding": {
       "description": "TaskResourceBinding points to the PipelineResource that will be used for the Task input or output called Name.",
       "type": "object",
       "properties": {
@@ -11643,15 +12581,15 @@
         },
         "resourceRef": {
           "description": "ResourceRef is a reference to the instance of the actual PipelineResource that should be used",
-          "$ref": "#/definitions/dev.tekton.v1beta1.PipelineResourceRef"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineResourceRef"
         },
         "resourceSpec": {
           "description": "ResourceSpec is specification of a resource that should be created and consumed by the task",
-          "$ref": "#/definitions/dev.tekton.v1alpha1.PipelineResourceSpec"
+          "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResourceSpec"
         }
       }
     },
-    "dev.tekton.v1beta1.TaskResources": {
+    "dev.tekton.pipeline.v1beta1.TaskResources": {
       "description": "TaskResources allows a Pipeline to declare how its DeclaredPipelineResources should be provided to a Task as its inputs and outputs.",
       "type": "object",
       "properties": {
@@ -11659,19 +12597,19 @@
           "description": "Inputs holds the mapping from the PipelineResources declared in DeclaredPipelineResources to the input PipelineResources required by the Task.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResource"
           }
         },
         "outputs": {
           "description": "Outputs holds the mapping from the PipelineResources declared in DeclaredPipelineResources to the input PipelineResources required by the Task.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResource"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResource"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.TaskResult": {
+    "dev.tekton.pipeline.v1beta1.TaskResult": {
       "description": "TaskResult used to describe the results of a task",
       "type": "object",
       "properties": {
@@ -11685,7 +12623,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.TaskRun": {
+    "dev.tekton.pipeline.v1beta1.TaskRun": {
       "description": "TaskRun represents a single execution of a Task. TaskRuns are how the steps specified in a Task are executed; they specify the parameters and resources used to run the steps in a Task.",
       "type": "object",
       "properties": {
@@ -11701,10 +12639,10 @@
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
         },
         "spec": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunSpec"
         },
         "status": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunStatus"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunStatus"
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -11715,7 +12653,7 @@
         }
       ]
     },
-    "dev.tekton.v1beta1.TaskRunResources": {
+    "dev.tekton.pipeline.v1beta1.TaskRunResources": {
       "description": "TaskRunResources allows a TaskRun to declare inputs and outputs TaskResourceBinding",
       "type": "object",
       "properties": {
@@ -11723,19 +12661,19 @@
           "description": "Inputs holds the inputs resources this task was invoked with",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResourceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResourceBinding"
           }
         },
         "outputs": {
           "description": "Outputs holds the inputs resources this task was invoked with",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResourceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResourceBinding"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.TaskRunResult": {
+    "dev.tekton.pipeline.v1beta1.TaskRunResult": {
       "description": "TaskRunResult used to describe the results of a task",
       "type": "object",
       "properties": {
@@ -11749,66 +12687,75 @@
         }
       }
     },
-    "dev.tekton.v1beta1.TaskRunSpec": {
+    "dev.tekton.pipeline.v1beta1.TaskRunSpec": {
       "description": "TaskRunSpec defines the desired state of TaskRun",
       "type": "object",
       "properties": {
         "params": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Param"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Param"
           }
         },
         "podTemplate": {
           "description": "PodTemplate holds pod specific configuration",
-          "$ref": "#/definitions/dev.tekton.pod.Template"
+          "$ref": "#/definitions/dev.tekton.pipeline.pod.Template"
         },
         "resources": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunResources"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunResources"
         },
         "serviceAccountName": {
           "type": "string"
         },
         "status": {
-          "description": "TaskRunSpecStatus defines the taskrun spec status the user can provide",
+          "description": "Used for cancelling a taskrun (and maybe more later on)",
           "type": "string"
         },
         "taskRef": {
           "description": "no more than one of the TaskRef and TaskSpec may be specified.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskRef"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRef"
         },
         "taskSpec": {
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskSpec"
         },
         "timeout": {
+          "description": "Time after which the build times out. Defaults to 1 hour. Specified build timeout should be less than 24h. Refer Go's ParseDuration documentation for expected format: https://golang.org/pkg/time/#ParseDuration",
           "type": "string"
         },
         "workspaces": {
           "description": "Workspaces is a list of WorkspaceBindings from volumes to workspaces.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspaceBinding"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspaceBinding"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.TaskRunStatus": {
+    "dev.tekton.pipeline.v1beta1.TaskRunStatus": {
       "description": "TaskRunStatus defines the observed state of TaskRun",
       "type": "object",
       "properties": {
+        "annotations": {
+          "description": "Annotations is additional Status fields for the Resource to save some additional State as well as convey more information to the user. This is roughly akin to Annotations on any k8s resource, just the reconciler conveying richer information outwards.",
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
         "cloudEvents": {
           "description": "CloudEvents describe the state of each cloud event requested via a CloudEventResource.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.CloudEventDelivery"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.CloudEventDelivery"
           }
         },
         "completionTime": {
+          "description": "CompletionTime is the time the build completed.",
           "type": "string",
           "format": "date-time"
         },
         "conditions": {
-          "description": "Conditions is the schema for the conditions portion of the payload",
+          "description": "Conditions the latest available observations of a resource's current state.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/dev.knative.pkg.apis.Condition"
@@ -11827,24 +12774,25 @@
           "description": "Results from Resources built during the taskRun. currently includes the digest of build container images",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.PipelineResourceResult"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.PipelineResourceResult"
           }
         },
         "retriesStatus": {
           "description": "RetriesStatus contains the history of TaskRunStatus in case of a retry in order to keep record of failures. All TaskRunStatus stored in RetriesStatus will have no date within the RetriesStatus as is redundant.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunStatus"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunStatus"
           }
         },
         "sidecars": {
           "description": "The list has one entry per sidecar in the manifest. Each entry is represents the imageid of the corresponding sidecar.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.SidecarState"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.SidecarState"
           }
         },
         "startTime": {
+          "description": "StartTime is the time the build is actually started.",
           "type": "string",
           "format": "date-time"
         },
@@ -11852,23 +12800,23 @@
           "description": "Steps describes the state of each build step container.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.StepState"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.StepState"
           }
         },
         "taskResults": {
           "description": "TaskRunResults are the list of results written out by the task's containers",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskRunResult"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskRunResult"
           }
         },
         "taskSpec": {
           "description": "TaskSpec contains the Spec from the dereferenced Task definition used to instantiate this TaskRun.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskSpec"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskSpec"
         }
       }
     },
-    "dev.tekton.v1beta1.TaskSpec": {
+    "dev.tekton.pipeline.v1beta1.TaskSpec": {
       "description": "TaskSpec defines the desired state of Task.",
       "type": "object",
       "properties": {
@@ -11880,25 +12828,25 @@
           "description": "Params is a list of input parameters required to run the task. Params must be supplied as inputs in TaskRuns unless they declare a default value.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.ParamSpec"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.ParamSpec"
           }
         },
         "resources": {
           "description": "Resources is a list input and output resource to run the task Resources are represented in TaskRuns as bindings to instances of PipelineResources.",
-          "$ref": "#/definitions/dev.tekton.v1beta1.TaskResources"
+          "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResources"
         },
         "results": {
           "description": "Results are values that this Task can output",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.TaskResult"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.TaskResult"
           }
         },
         "sidecars": {
           "description": "Sidecars are run alongside the Task's step containers. They begin before the steps start and end after the steps complete.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Step"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Sidecar"
           }
         },
         "stepTemplate": {
@@ -11909,7 +12857,7 @@
           "description": "Steps are the steps of the build; each step is run sequentially with the source mounted into /workspace.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.Step"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.Step"
           }
         },
         "volumes": {
@@ -11923,12 +12871,33 @@
           "description": "Workspaces are the volumes that this Task requires.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/dev.tekton.v1beta1.WorkspaceDeclaration"
+            "$ref": "#/definitions/dev.tekton.pipeline.v1beta1.WorkspaceDeclaration"
           }
         }
       }
     },
-    "dev.tekton.v1beta1.WorkspaceBinding": {
+    "dev.tekton.pipeline.v1beta1.WhenExpression": {
+      "description": "WhenExpression allows a PipelineTask to declare expressions to be evaluated before the Task is run to determine whether the Task should be executed or skipped",
+      "type": "object",
+      "properties": {
+        "input": {
+          "description": "Input is the string for guard checking which can be a static input or an output from a parent Task",
+          "type": "string"
+        },
+        "operator": {
+          "description": "Operator that represents an Input's relationship to the values",
+          "type": "string"
+        },
+        "values": {
+          "description": "Values is an array of strings, which is compared against the input, for guard checking It must be non-empty",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dev.tekton.pipeline.v1beta1.WorkspaceBinding": {
       "description": "WorkspaceBinding maps a Task's declared workspace to a Volume.",
       "type": "object",
       "properties": {
@@ -11962,7 +12931,7 @@
         }
       }
     },
-    "dev.tekton.v1beta1.WorkspaceDeclaration": {
+    "dev.tekton.pipeline.v1beta1.WorkspaceDeclaration": {
       "description": "WorkspaceDeclaration is a declaration of a volume that a Task requires.",
       "type": "object",
       "properties": {
@@ -11978,27 +12947,17 @@
           "description": "Name is the name by which you can bind the volume at runtime.",
           "type": "string"
         },
+        "optional": {
+          "description": "Optional marks a Workspace as not being required in TaskRuns. By default this field is false and so declared workspaces are required.",
+          "type": "boolean"
+        },
         "readOnly": {
           "description": "ReadOnly dictates whether a mounted volume is writable. By default this field is false and so mounted volumes are writable.",
           "type": "boolean"
         }
       }
     },
-    "dev.tekton.v1beta1.WorkspacePipelineDeclaration": {
-      "description": "WorkspacePipelineDeclaration creates a named slot in a Pipeline that a PipelineRun is expected to populate with a workspace binding.",
-      "type": "object",
-      "properties": {
-        "description": {
-          "description": "Description is a human readable string describing how the workspace will be used in the Pipeline. It can be useful to include a bit of detail about which tasks are intended to have access to the data on the workspace.",
-          "type": "string"
-        },
-        "name": {
-          "description": "Name is the name of a workspace to be provided by a PipelineRun.",
-          "type": "string"
-        }
-      }
-    },
-    "dev.tekton.v1beta1.WorkspacePipelineTaskBinding": {
+    "dev.tekton.pipeline.v1beta1.WorkspacePipelineTaskBinding": {
       "description": "WorkspacePipelineTaskBinding describes how a workspace passed into the pipeline should be mapped to a task's declared workspace.",
       "type": "object",
       "properties": {
@@ -12012,6 +12971,121 @@
         },
         "workspace": {
           "description": "Workspace is the name of the workspace declared by the pipeline",
+          "type": "string"
+        }
+      }
+    },
+    "dev.tekton.resource.v1alpha1.PipelineResource": {
+      "description": "PipelineResource describes a resource that is an input to or output from a Task.",
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources",
+          "type": "string"
+        },
+        "kind": {
+          "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds",
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
+        },
+        "spec": {
+          "description": "Spec holds the desired state of the PipelineResource from the client",
+          "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResourceSpec"
+        },
+        "status": {
+          "description": "Status is deprecated. It usually is used to communicate the observed state of the PipelineResource from the controller, but was unused as there is no controller for PipelineResource.",
+          "$ref": "#/definitions/dev.tekton.resource.v1alpha1.PipelineResourceStatus"
+        }
+      },
+      "x-kubernetes-group-version-kind": [
+        {
+          "group": "tekton.dev",
+          "kind": "PipelineResource",
+          "version": "v1alpha1"
+        }
+      ]
+    },
+    "dev.tekton.resource.v1alpha1.PipelineResourceSpec": {
+      "description": "PipelineResourceSpec defines  an individual resources used in the pipeline.",
+      "type": "object",
+      "properties": {
+        "description": {
+          "description": "Description is a user-facing description of the resource that may be used to populate a UI.",
+          "type": "string"
+        },
+        "params": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.resource.v1alpha1.ResourceParam"
+          }
+        },
+        "secrets": {
+          "description": "Secrets to fetch to populate some of resource fields",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dev.tekton.resource.v1alpha1.SecretParam"
+          }
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "dev.tekton.resource.v1alpha1.PipelineResourceStatus": {
+      "description": "PipelineResourceStatus does not contain anything because PipelineResources on their own do not have a status Deprecated",
+      "type": "object"
+    },
+    "dev.tekton.resource.v1alpha1.ResourceDeclaration": {
+      "description": "ResourceDeclaration defines an input or output PipelineResource declared as a requirement by another type such as a Task or Condition. The Name field will be used to refer to these PipelineResources within the type's definition, and when provided as an Input, the Name will be the path to the volume mounted containing this PipelineResource as an input (e.g. an input Resource named `workspace` will be mounted at `/workspace`).",
+      "type": "object",
+      "properties": {
+        "description": {
+          "description": "Description is a user-facing description of the declared resource that may be used to populate a UI.",
+          "type": "string"
+        },
+        "name": {
+          "description": "Name declares the name by which a resource is referenced in the definition. Resources may be referenced by name in the definition of a Task's steps.",
+          "type": "string"
+        },
+        "optional": {
+          "description": "Optional declares the resource as optional. By default optional is set to false which makes a resource required. optional: true - the resource is considered optional optional: false - the resource is considered required (equivalent of not specifying it)",
+          "type": "boolean"
+        },
+        "targetPath": {
+          "description": "TargetPath is the path in workspace directory where the resource will be copied.",
+          "type": "string"
+        },
+        "type": {
+          "description": "Type is the type of this resource;",
+          "type": "string"
+        }
+      }
+    },
+    "dev.tekton.resource.v1alpha1.ResourceParam": {
+      "description": "ResourceParam declares a string value to use for the parameter called Name, and is used in the specific context of PipelineResources.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    "dev.tekton.resource.v1alpha1.SecretParam": {
+      "description": "SecretParam indicates which secret can be used to populate a field of the resource",
+      "type": "object",
+      "properties": {
+        "fieldName": {
+          "type": "string"
+        },
+        "secretKey": {
+          "type": "string"
+        },
+        "secretName": {
           "type": "string"
         }
       }

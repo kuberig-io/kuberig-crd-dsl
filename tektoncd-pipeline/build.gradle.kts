@@ -4,7 +4,7 @@ buildscript {
         maven("https://dl.bintray.com/teyckmans/rigeldev-oss-maven/")
     }
     dependencies {
-        classpath("io.kuberig:kuberig-dsl-generator-gradle-plugin:0.1.1")
+        classpath("io.kuberig:kuberig-dsl-generator-gradle-plugin:0.1.3")
     }
 }
 
@@ -20,5 +20,5 @@ repositories {
 }
 
 dependencies {
-    implementation("io.kuberig.dsl.kubernetes:kuberig-dsl-kubernetes-v1.19.3:0.1.1")
+    implementation("io.kuberig.dsl.kubernetes:kuberig-dsl-kubernetes-v1.19.3:0.1.2")
 }

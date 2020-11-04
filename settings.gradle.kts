@@ -9,3 +9,4 @@
 
 rootProject.name = "kuberig-crd-dsl"
 include("tektoncd-pipeline")
+include("cloudstate")

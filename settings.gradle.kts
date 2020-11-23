@@ -8,6 +8,25 @@
  */
 
 rootProject.name = "kuberig-crd-dsl"
+
+pluginManagement {
+    val kuberigDslVersion : String by settings
+
+    plugins {
+        id("io.kuberig.dsl.generator") version(kuberigDslVersion)
+    }
+
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven("https://dl.bintray.com/teyckmans/rigeldev-oss-maven")
+        gradlePluginPortal()
+    }
+}
+
+
 include("tektoncd-pipeline")
 include("cloudstate")
 include("cert-manager")
+include("knative-serving")
+include("knative-eventing")

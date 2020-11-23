@@ -1,0 +1,50 @@
+GOROOT=/usr/local/go #gosetup
+GOPATH=/home/teyckmans/go #gosetup
+/usr/local/go/bin/go build -o /tmp/___swagger_cert_manager_ sigs.k8s.io/controller-tools/cmd/controller-gen #gosetup
+/tmp/___swagger_cert_manager_ swagger:crdRootPackage=github.com/jetstack/cert-manager/pkg/apis paths=./... output:dir=./config/crd/swagger
+groups: cert-manager.io, acme.cert-manager.io
+[cert-manager.io]sharedPackage = github.com/jetstack/cert-manager/pkg/apis/certmanager => io.cert-manager
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1/Issuer => io.cert-manager.v1.Issuer
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha2/ClusterIssuer => io.cert-manager.v1alpha2.ClusterIssuer
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1/ClusterIssuer => io.cert-manager.v1.ClusterIssuer
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha3/CertificateRequest => io.cert-manager.v1alpha3.CertificateRequest
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha2/CertificateRequest => io.cert-manager.v1alpha2.CertificateRequest
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha3/Certificate => io.cert-manager.v1alpha3.Certificate
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1beta1/ClusterIssuer => io.cert-manager.v1beta1.ClusterIssuer
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1/CertificateRequest => io.cert-manager.v1.CertificateRequest
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1beta1/Certificate => io.cert-manager.v1beta1.Certificate
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha2/Certificate => io.cert-manager.v1alpha2.Certificate
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1beta1/Issuer => io.cert-manager.v1beta1.Issuer
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1/Certificate => io.cert-manager.v1.Certificate
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha2/Issuer => io.cert-manager.v1alpha2.Issuer
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha3/ClusterIssuer => io.cert-manager.v1alpha3.ClusterIssuer
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1beta1/CertificateRequest => io.cert-manager.v1beta1.CertificateRequest
+        github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha3/Issuer => io.cert-manager.v1alpha3.Issuer
+[acme.cert-manager.io]sharedPackage = github.com/jetstack/cert-manager/pkg/apis/acme => io.cert-manager.acme
+        github.com/jetstack/cert-manager/pkg/apis/acme/v1alpha2/Order => cert-manager.acme.io.v1alpha2.Order
+        github.com/jetstack/cert-manager/pkg/apis/acme/v1alpha3/Order => cert-manager.acme.io.v1alpha3.Order
+        github.com/jetstack/cert-manager/pkg/apis/acme/v1beta1/Order => cert-manager.acme.io.v1beta1.Order
+        github.com/jetstack/cert-manager/pkg/apis/acme/v1/Order => cert-manager.acme.io.v1.Order
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/acme/types_order.go:29:2: encountered struct field "" without JSON tag in type "Order"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/acme/types_order.go:30:2: encountered struct field "" without JSON tag in type "Order"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/acme/types_order.go:32:2: encountered struct field "Spec" without JSON tag in type "Order"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/acme/types_order.go:33:2: encountered struct field "Status" without JSON tag in type "Order"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_issuer.go:34:2: encountered struct field "" without JSON tag in type "ClusterIssuer"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_issuer.go:35:2: encountered struct field "" without JSON tag in type "ClusterIssuer"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_issuer.go:38:2: encountered struct field "Spec" without JSON tag in type "ClusterIssuer"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_issuer.go:41:2: encountered struct field "Status" without JSON tag in type "ClusterIssuer"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_certificaterequest.go:50:2: encountered struct field "" without JSON tag in type "CertificateRequest"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_certificaterequest.go:51:2: encountered struct field "" without JSON tag in type "CertificateRequest"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_certificaterequest.go:54:2: encountered struct field "Spec" without JSON tag in type "CertificateRequest"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_certificaterequest.go:57:2: encountered struct field "Status" without JSON tag in type "CertificateRequest"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_certificate.go:32:2: encountered struct field "" without JSON tag in type "Certificate"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_certificate.go:33:2: encountered struct field "" without JSON tag in type "Certificate"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_certificate.go:36:2: encountered struct field "Spec" without JSON tag in type "Certificate"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_certificate.go:39:2: encountered struct field "Status" without JSON tag in type "Certificate"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_issuer.go:61:2: encountered struct field "" without JSON tag in type "Issuer"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_issuer.go:62:2: encountered struct field "" without JSON tag in type "Issuer"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_issuer.go:65:2: encountered struct field "Spec" without JSON tag in type "Issuer"
+/home/teyckmans/work/rigeldev/code/kuberig/crds/cert-manager/pkg/internal/apis/certmanager/types_issuer.go:68:2: encountered struct field "Status" without JSON tag in type "Issuer"
+Error: not all generators ran successfully
+run `controller-gen swagger:crdRootPackage=github.com/jetstack/cert-manager/pkg/apis paths=./... output:dir=./config/crd/swagger -w` to see all available markers, or `controller-gen swagger:crdRootPackage=github.com/jetstack/cert-manager/pkg/apis paths=./... output:dir=./config/crd/swagger -h` for usage
+

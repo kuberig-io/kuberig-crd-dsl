@@ -19,10 +19,8 @@ class GettingStartedKNativeApp {
                             container {
                                 image("gcr.io/knative-samples/helloworld-go")
                                 env {
-                                    env {
-                                        name("TARGET")
-                                        value("Go Sample v1")
-                                    }
+                                    name("TARGET")
+                                    value("Go Sample v1")
                                 }
                             }
                         }

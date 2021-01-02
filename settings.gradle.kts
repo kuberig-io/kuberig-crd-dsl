@@ -14,13 +14,7 @@ pluginManagement {
 
     plugins {
         id("io.kuberig.dsl.generator") version(kuberigDslVersion)
-    }
-
-    repositories {
-        mavenLocal()
-        jcenter()
-        maven("https://dl.bintray.com/teyckmans/rigeldev-oss-maven")
-        gradlePluginPortal()
+        id("com.jfrog.bintray") version "1.8.5"
     }
 }
 

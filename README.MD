@@ -12,3 +12,21 @@ It can also show you how to generate a KubeRig DSL when the CRDs you want to con
 ## Background
 
 Read about how we do this [here](https://www.rigel.dev/kuberig-dsl-for-crds/).
+
+# Dependencies
+
+The modules are deployed to bintray in the following repository. They are not available on JCenter at the moment. 
+```kotlin
+repositories {
+  maven("https://dl.bintray.com/teyckmans/rigeldev-oss-maven")
+}
+```
+
+If you want to give a CRD DSL a try add an implementation dependency to one of the available packages.
+
+|module|dependency|
+|------|----------|
+|cert-manager|io.kuberig.crd.dsl:cert-manager:0.1.0|
+|knative-eventing|io.kuberig.crd.dsl:knative-eventing:0.1.0|
+|knative-serving|io.kuberig.crd.dsl:knative-serving:0.1.0|
+|tektoncd-pipeline|io.kuberig.crd.dsl:tektoncd-pipeline:0.1.0|

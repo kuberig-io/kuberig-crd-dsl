@@ -11,7 +11,7 @@ It can also show you how to generate a KubeRig DSL when the CRDs you want to con
 
 ## Background
 
-Read about how we do this [here](https://www.rigel.dev/kuberig-dsl-for-crds/).
+Read about how we do this [here](https://kuberig.io/blog/2020/10/16/crd-support-a-challenge).
 
 # Dependencies
 
